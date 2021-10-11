@@ -19,7 +19,7 @@ spec:
             nodeSelectorTerms:
             - matchExpressions:
               - key: color
-                operator: In
+                operator: In # NotIn | Exists
                 values:
                 - blue
       containers:
