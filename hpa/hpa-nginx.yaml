@@ -1,4 +1,4 @@
-# https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates
+#
 apiVersion: autoscaling/v2beta2
 kind: HorizontalPodAutoscaler
 metadata:
